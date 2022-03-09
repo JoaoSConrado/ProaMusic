@@ -1,0 +1,375 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black ;
+}
+
+.btn-primary {
+    background: #1b3280;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: 30px;
+    font-size: 15px; 
+    
+}
+
+#navbar {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navbar .navbar-container {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+
+}
+
+#navbar .navbar-container .logo {
+    height: 55px;
+    width: auto;
+}
+
+#navbar .navbar-container ul {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+#navbar .navbar-container ul li {
+    padding: 0 20px;
+    transition: all 500ms ease;
+}
+
+#navbar .navbar-container ul li:hover {
+   color: #00b8f1;
+   cursor: pointer;
+
+}
+
+#showcase {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url('/Users/Aluno PROA/Desktop/Proa Music/imagens/FUNDO-showcase.jpg') center ;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: color;
+}   
+
+#showcase .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#showcase .showcase-container h2 {
+    font-size: 55px;
+
+}
+
+#showcase .showcase-container p {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #00b8f1;
+    transition: all 500ms ease;
+}
+
+#Music .Music-container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 30 20px;
+    border: none;
+
+}
+
+img {
+    padding: 10 10px;
+    border: none;
+    border-radius: 20px ;
+}
+
+
+#Music .Music-container ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.MusicText {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.MusicText h2 {
+    background-color: #1b3280;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 400px;
+    border: none;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.MusicText p {
+   font-size: 20px;
+   font-weight: bold;
+   letter-spacing: 2px;
+   color: white;
+   
+}
+
+#QuemSouEu {
+  background-color: rgba(0, 184, 241, 0.4);
+  padding: 50 50px;
+  margin-left: 100 ;
+  margin-right: 100 ;
+  margin-top: 20;
+  color: white ;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border-radius: 20px;
+   
+} 
+
+#QuemSouEu h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 10 0px;
+    position: relative;
+    bottom: 40px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+}
+
+#QuemSouEu p {
+    font-size: 25px;
+    text-align: justify;
+    position: relative;
+    bottom: 20px;
+    text-indent: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+#QuemSouEu h4 {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/* -- TELA PAGODE -- */
+
+.MusicTextPagode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.MusicTextPagode h2 {
+    background-color: #81b71a;
+    color: white;
+    text-transform: uppercase;
+    padding: 0 45%;
+    border: none;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+details {
+    color: white;
+    padding: 10 10px;
+}
+
+#showcase-pagode {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url('/Users/Aluno PROA/Desktop/Proa Music/imagens/PAGODEFUNDO.jpg') center center/cover ;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: color;
+}   
+
+#showcase-pagode .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#showcase-pagode .showcase-container h2 {
+    font-size: 55px;
+
+}
+
+#showcase-pagode .showcase-container p {
+    margin: 5px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* -- TELA FUNk -- */
+
+#showcase-funk {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url('/Users/Aluno PROA/Desktop/Proa Music/imagens/Funk.jpeg') center center/cover ;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: color;
+}   
+
+#showcase-funk .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#showcase-funk .showcase-container h2 {
+    font-size: 55px;
+
+}
+
+#showcase-funk .showcase-container p {
+    margin: 5px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* -- TELA SERTANEJO -- */
+
+#showcase-sertanejo {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url('/Users/Aluno PROA/Desktop/Proa Music/imagens/SertanejoFundo.jpg') center center/cover ;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: color;
+}   
+
+#showcase-sertanejo .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#showcase-sertanejo .showcase-container h2 {
+    font-size: 55px;
+
+}
+
+#showcase-sertanejo .showcase-container p {
+    margin: 5px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* -- TELA FORRÓ -- */
+
+#showcase-forro {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url('/Users/Aluno PROA/Desktop/Proa Music/imagens/ForroFundo.jpg') center center/cover ;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: color;
+}   
+
+#showcase-forro .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#showcase-forro .showcase-container h2 {
+    font-size: 55px;
+
+}
+
+#showcase-forro .showcase-container p {
+    margin: 5px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* -- TELA RAP -- */
+
+#showcase-rap {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url('/Users/Aluno PROA/Desktop/Proa Music/imagens/FundoRap.jpg') center center/cover ;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: color;
+}   
+
+#showcase-rap .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#showcase-rap .showcase-container h2 {
+    font-size: 55px;
+
+}
+
+#showcase-rap .showcase-container p {
+    margin: 5px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+
